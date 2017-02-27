@@ -1,0 +1,11 @@
+ING PSP-Magento Extension for iDEAL, Banktransfer, Creditcard, Rembours and Bancontact
+====================
+
+# Upgrading #
+
+## Steps
++ Check if you are running the latest version.
++ Copy the folders app and lib to your Magento install. If asked; overwrite current files.
++ Empty your cache. (System>Cache Management>Flush Magento Cache)
++ If you receive a 404 (page not found), log off and in.
++ Ga to System>Configuration>Sales>Payment Methods and check if the version number is updated

@@ -1,0 +1,140 @@
+<_>
+   <form_key>fHDZm2Mwe3e7ezGn</form_key>
+   <name>ING_PSP</name>
+   <channel>community</channel>
+   <version_ids>
+      <version_ids>2</version_ids>
+   </version_ids>
+   <summary>ING PSP - Magento Extension for iDEAL, Banktransfer and Creditcard</summary>
+   <description>ING PSP extension for Magento compatible with: 1.6, 1.6.1, 1.6.2.0, 1.7, 1.8, 1.9 (tested for 1.6.0.0, 1.8.1.0, 1.9.1.1).
+This extension installs 5 payment methods; iDEAL, CreditCard, Banktransfer, Bancontact and Cash on Delivery</description>
+   <license>The MIT License (MIT)</license>
+   <license_uri>https://opensource.org/licenses/MIT</license_uri>
+   <version>1.1.2</version>
+   <stability>stable</stability>
+   <notes>ING PSP-Magento Extension for iDEAL, Banktransfer and Creditcard
+====================
+
+# Changelog #
+
+## Changes in version 1.0.0
++ Initial version based upon Ginger Payments version
+
+## Changes in version 1.0.1
++ Updated the README.md
+
+## Changes in version 1.0.2
++ Handle banktransfer correctly
+
+## Changes in version 1.0.3
++ Added version to the webhook
++ Added cash on delivery
+
+## Changes in version 1.1.0
++ Added Bancontact
++ Added product selection
+
+## Changes in version 1.1.1
++ Renamed bcmc to bancontact
+</notes>
+   <authors>
+      <name>
+         <name>ING</name>
+      </name>
+      <user>
+         <user>ING</user>
+      </user>
+      <email>
+         <email>info@ing.nl</email>
+      </email>
+   </authors>
+   <depends_php_min>5.2.13</depends_php_min>
+   <depends_php_max>6.2.0</depends_php_max>
+   <depends>
+      <package>
+         <name>
+            <name/>
+         </name>
+         <channel>
+            <channel/>
+         </channel>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+         <files>
+            <files>                                                   </files>
+         </files>
+      </package>
+      <extension>
+         <name>
+            <name>Core</name>
+         </name>
+         <min>
+            <min/>
+         </min>
+         <max>
+            <max/>
+         </max>
+      </extension>
+   </depends>
+   <contents>
+      <target>
+         <target>magelocal</target>
+         <target>magecommunity</target>
+         <target>magedesign</target>
+         <target>magedesign</target>
+         <target>magedesign</target>
+         <target>mageetc</target>
+         <target>magelocale</target>
+         <target>magelocale</target>
+         <target>magelib</target>
+      </target>
+      <path>
+         <path/>
+         <path>ING</path>
+         <path>adminhtml/default/default/template/ing_psp</path>
+         <path>frontend/base/default/template/ing_psp</path>
+         <path>frontend/base/default/layout/ing_psp.xml</path>
+         <path>modules/ING_PSP.xml</path>
+         <path>en_US/ING_PSP.csv</path>
+         <path>nl_NL/ING_PSP.csv</path>
+         <path>Ing/Services/ing-php</path>
+      </path>
+      <type>
+         <type>file</type>
+         <type>dir</type>
+         <type>dir</type>
+         <type>dir</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+         <type>file</type>
+      </type>
+      <include>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+         <include/>
+      </include>
+      <ignore>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+         <ignore/>
+      </ignore>
+   </contents>
+</_>
