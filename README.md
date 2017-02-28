@@ -1,16 +1,5 @@
-ING PSP-Magento Extension for iDEAL, Banktransfer, Creditcard, Rembours and Bancontact
-====================
-
-# Readme #
-
-ING PSP extension for Magento compatible with: 1.5, 1.6, 1.6.1, 1.6.2.0, 1.7, 1.8 (tested for 1.8.1.0). 
-This extension installs 5 payment methods; iDEAL, Banktransfer, Creditcard, Rembours and Bancontact
-
-## Configuration
-
-Afterwards go to System > Configuration > Payment Methods and configure the Settings.
-
-At ING PSP Portal set the webhook URL to: https://www.example.com/ingpsp/ideal/webhook or https://www.example.com/index.php/ingpsp/ideal/webhook. You should be able to visit the webhook URL. (you will get an error, but if you get a 404 the URL is wrong, the page should be found)
-
-## ToDo
-+ Create refunds automatically when creating a creditmemo
+It is the official [Kassa Compleet extension for Magento 1.x](https://mage2.pro/t/3247).   
+Copyright (c) 2015 Ginger Payments.   
+This software is released under the terms of the MIT License (MIT).  
+**I am not an author of this extension and do not support it.**  
+I have published it here for my convenience of referencing its code from my [forum](https://mage2.pro/c/extensions/kassa-compleet) and implementing my «[Kassa Compleet](https://mage2.pro/c/extensions/kassa-compleet)» extension for Magento 2 (which does not use any source code of this Magento 1.x extension). 
